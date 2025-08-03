@@ -9,7 +9,7 @@ apiId = 27074275
 apiHash = "89b5cde6d92d1cdc19d2108d63185cac"
 sessionName = "autoReactAll"
 
-emojiList = ["❤️", "👍", "👎", "🔥", "🎉", "😆", "😢", "😮", "😡"]
+emojiList = ["❤️", "👍", "👎", "🔥", "😆", "😢", "😮", "😡", "😈", "🗿", "👾", "🤡", "🆒", "😁"]
 
 client = TelegramClient(sessionName, apiId, apiHash)
 
@@ -39,3 +39,4 @@ async def main():
 
 client.start()
 client.loop.run_until_complete(main())
+
